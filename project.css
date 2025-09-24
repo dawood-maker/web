@@ -1,0 +1,22 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 400;
+}
+
+.carousel-item img {
+  height: 400px;       /* apni marzi ki height rakh lo */
+  object-fit: cover;   /* image ko crop karke fit karega */
+}
+
+
+.growth-img {
+  height: 450px;      /* apni marzi ka height */
+  width: 100%;        /* poora column cover karega */
+  object-fit: cover;  /* image stretch na ho, crop ho kar fit ho */
+}
+
+.growth-img {
+  max-height: 60vh;   /* screen height ka 60% */
+  width: 100%;
+  object-fit: cover;
+}

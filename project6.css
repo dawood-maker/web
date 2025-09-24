@@ -1,0 +1,310 @@
+/* Navbar */
+#top_nav {
+  background-color: #daac00 !important;
+  padding: 0 8%;
+}
+
+/* Navbar brand container */
+.navbar-brand {
+  display: flex;
+  align-items: center;   /* vertical align */
+  gap: 8px;              /* space between icon & text */
+  text-decoration: none; /* remove underline */
+  color: #ffffff !important;
+}
+
+/* SVG icon style */
+.navbar-brand svg {
+  width: 59px;
+  height: 60px;  /* sirf ek hi height rakho */
+  fill: #fffefe;
+  transition: transform 0.3s ease, fill 0.3s ease;
+  margin-bottom: 0;  /* 26px hata diya (icon neeche shift ho raha tha) */
+}
+
+/* Text style */
+#logo {
+  font-size: 1.3rem;
+  font-weight: 600;   /* 250 weak hota hai, 600 readable hai */
+  letter-spacing: 1px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Search Box */
+#searchbox {
+  background-color: #fcc302;
+  color: #fffefe;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px #00000021;
+}
+
+/* Search Button */
+#searchbtn {
+  position: relative;
+  z-index: 99;
+  background-color: #0d6efd; /* Bootstrap blue */
+  color: #ffffff;
+  border: 0;
+   border-radius: 0;
+  box-shadow: 5px 5px 5px #00000021;
+}
+
+
+
+
+/* banner */
+ #banner {
+  background-color: #fcc302;
+  padding-bottom: 250px;
+}       
+
+ #bannertext h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+ #bannertext p {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+ 
+  #banner-btn-1 {
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: white;
+}
+  
+  #banner-btn-2 {
+  color: white;
+  border: 2px solid white;
+  margin-left: 15px;
+}
+
+ #banner img {
+  margin-top: 150px;
+  min-height: 300px;
+}
+
+
+
+
+
+        /* service */
+ #service-text {
+  padding-top: 10%; 
+  padding-bottom: 5%;
+}
+
+ #service-btn {
+  background-color: #fcc302;
+  color: white; 
+  border: 2px solid #fcc302
+}
+
+#service-img {
+  padding: 5%;
+  margin-top: 100px;
+  min-height: 300px;
+  padding-right: 40px;
+}
+   
+ 
+
+    /* counter-section
+ #counter-section {
+  background-image: url("../images/dog.jpg");
+ }   
+ 
+.counter-icon {
+  font-size: 50px;
+} */
+
+
+
+/* Footer */
+#main-footer {
+  position: relative;
+  background-image: url("../images/pin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+/* Footer */
+#main-footer {
+  position: relative;
+  background-image: url("../images/pin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px;   /* pehle 300px tha, ab kam height */
+  max-height: 250px;   /* optional: limit upper height */
+}
+
+/* Overlay */
+#main-footer .footer-overlay {
+  background-color: rgba(218, 172, 0, 0.6); /* light transparent yellow */
+  width: 100%;
+  height: 500%;
+  padding: 10px 10px;  /* kam padding taki content compact ho */
+}
+
+/* Footer Text */
+#main-footer h2 {
+  font-size: 1.6rem;   /* thoda chhota */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#main-footer p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#main-footer .btn {
+  background-color: #fff;
+  color: #daac00;
+  font-weight: bold;
+  border: none;
+  padding: 6px 18px;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+/* Blog Section */
+#blog {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+/* Blog Title */
+#blog-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#blog-p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+/* Blog Card */
+.article-detail {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-detail:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog Images */
+.article-detail img {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.article-detail:hover img {
+  transform: scale(1.05);
+}
+
+/* Blog Title */
+.article-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 15px;
+}
+
+/* Blog Date */
+.article-day {
+  font-size: 0.9rem;
+  color: #00bec9;
+  margin: 5px 0 10px;
+}
+
+/* Blog Description */
+.article-decs {
+  font-size: 1rem;
+  color: #383838;
+  margin-bottom: 15px;
+}
+
+/* Read More Link */
+.article-link {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #00bec9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.article-link:hover {
+  color: #c89600;
+  text-decoration: underline;
+}
+
+
+
+
+       /* footer  */
+ #footer {
+  background-color: #343434;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}      
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+#footer-search-box {
+  background-color: #fcc302;
+  color: white;
+  border: 0;
+  padding: 15px;
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+  left: 10px;
+}
+
+#footer-search-submit {
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  padding: 15px 40px;
+}
+
+.social-icon {
+  font-size: 25px;
+  padding-left: 5px;
+
+}

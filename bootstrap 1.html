@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estyle.css">
+  <title>Bootstrap Level 1</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap1.css"> <!-- your custom CSS -->
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container py-5">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">This is a simple hero unit...</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing...</p>
+      <a class="btn btn-secondary btn-lg" href="#">Learn more</a>
+    </div>
+  </div>
+
+  <!-- Container with Card -->
+  <div class="container my-4">
+    <div class="card">
+      <div class="card-body">
+        Hello! I am in a simple container.
+      </div>
+    </div>
+  </div>
+
+  <!-- Fluid Container -->
+  <div class="container-fluid my-4">
+    <div class="card">
+      <div class="card-body">
+        Hello! I am in a fluid-width container.
+      </div>
+    </div>
+  </div>
+
+  <!-- Grid Example -->
+  <h1 class="text-center text-primary">Bootstrap!</h1>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-4 bg-dark text-white">Column 1</div>
+      <div class="col-md-4 bg-secondary text-white">Column 2</div>
+      <div class="col-md-4 bg-info text-white">Column 3</div>
+    </div>
+  </div>
+
+  <!-- Custom Container -->
+  <div class="container my-container">
+    Hello! I am in a custom styled container.
+  </div>
+
+  <!-- Buttons -->
+  <div class="container my-4">
+    <button class="btn btn-dark">Dark Button</button>
+    <button class="btn btn-success">Success Button</button>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <hr>
+<a href="https://getbootstrap.com/docs/4.6/layout/overview/" target="_blank">
+  Bootstrap Layout Docs
+</a>
+<br>
+<a href="https://getbootstrap.com/docs/4.6/layout/overview/" 
+   class="btn btn-primary" target="_blank">
+   Go to Bootstrap Docs
+</a>
+<br>
+<hr>
+<a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">
+  Bootstrap Introduction
+</a>
+<br>
+<a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank" rel="noopener noreferrer">
+  View Bootstrap Introduction
+</a>
+<br>
+<a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" class="btn btn-dark">
+  View Bootstrap Introduction
+</a>
+<br>
+<hr>
+<nav class="container my-4">
+  <h2>Useful Links</h2>
+  <ul class="list-unstyled">
+    <li><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" class="text-primary" target="_blank">Bootstrap Introduction</a></li>
+    <li><a href="https://getbootstrap.com/docs/4.6/layout/overview/" class="text-dark">Bootstrap Layout Overview</a></li>
+  </ul>
+</nav>
+
+<div class="container my-1">
+  <div class="row g-1">
+    <div class="col-1">
+      <div class="card bg-primary text-white">
+        <div class="card-body">This is column 1</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-secondary text-white">
+        <div class="card-body">This is column 2</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-success text-white">
+        <div class="card-body">This is column 3</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-danger text-white">
+        <div class="card-body">This is column 4</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-warning text-dark">
+        <div class="card-body">This is column 5</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-info text-dark">
+        <div class="card-body">This is column 6</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-dark text-white">
+        <div class="card-body">This is column 7</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-warning text-dark">
+        <div class="card-body">This is column 8</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-primary text-white">
+        <div class="card-body">This is column 9</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-secondary text-white">
+        <div class="card-body">This is column 10</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-success text-white">
+        <div class="card-body">This is column 11</div>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="card bg-danger text-white">
+        <div class="card-body">This is column 12</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container bg-light p-3">
+
+ <div class="container bg-light p-3">
+   <div class="row">
+     <div class="col-12 bg-warning text-dark p-3">
+       this is a bigger column
+       <div class="row">
+         <div class="col-4 bg-info text-white p-3">This is col-4</div>
+         <div class="col-4 bg-success text-white p-3">This is col-4</div>
+         <div class="col-4 bg-danger text-white p-3">This is col-4</div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <!-- Row 1 -->
+  <div class="row mb-2">
+    <div class="col-6 bg-warning text-dark p-3">This is col-6</div>
+    <div class="col-6 bg-warning text-dark p-3">This is col-6</div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="row mb-2">
+    <div class="col-5 bg-warning  text-dark p-3">This is col-5</div>
+    <div class="col-7 bg-warning  text-dark p-3">This is col-7</div>
+  </div>
+
+  <!-- Row 3 -->
+  <div class="row mb-2">
+    <div class="col-4 bg-warning  text-dark p-3">This is col-4</div>
+    <div class="col-8 bg-warning text-dark p-3">This is col-8</div>
+    <!-- <div class="col-5 bg-success text-white p-3">This is col-5</div> -->
+  </div>
+
+<div class="container bg-light p-3">
+  <div class="row">
+    <div class="col-sm-6 col-lg-3 bg-warning text-dark p-3">This is a column - 3</div>
+    <div class="col-sm-6 col-lg-3 bg-primary text-dark p-3">This is a column - 3</div>
+    <div class="col-sm-6 col-lg-3 bg-secondary text-dark p-3">This is a column - 3</div>
+    <div class="col-sm-6 col-lg-3 bg-success text-dark p-3">This is a column - 3</div>
+  </div>
+</div>
+
+</body>
+</html>
